@@ -11,8 +11,8 @@ bin/kafka-server-start.sh config/server-5.properties &
 
 #### create
 ```
-bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 3 --partitions 1 --topic kaden_media
-bin/kafka-topics.sh --describe --bootstrap-server localhost:9092 --topic kaden_media
+bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 3 --partitions 1 --topic test1
+bin/kafka-topics.sh --describe --bootstrap-server localhost:9092 --topic test1
 ```
 
 
